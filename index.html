@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link type="image/x-icon" href="img/favicon.ico" rel="shortcut icon" />
+    <link type="Image/x-icon" href="img/favicon.ico" rel="icon" />
+    <title>Интерьер</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="header-logo">
+          <img src="img/logo.svg" alt="логотип" />
+        </div>
+        <nav class="header-menu">
+          <div class="header-menu-link"><a href="#">Главная</a></div>
+          <div class="header-menu-link"><a href="#">Каталог</a></div>
+          <div class="header-menu-link"><a href="#">Блог</a></div>
+          <div class="header-menu-link"><a href="#">Решения</a></div>
+          <div class="header-menu-link"><a href="#">Контакты</a></div>
+        </nav>
+        <div class="header-tools">
+          <img src="img/search.svg" alt="поиск" />
+          <img src="img/basket.svg" alt="корзина" />
+        </div>
+
+        <div class="header-burger">
+          <input type="checkbox" id="burger-checkbox" class="burger-checkbox" />
+          <label for="burger-checkbox" class="burger"></label>
+          <nav class="header-menu-wrapper">
+            <div class="header-menu-link-burger"><a href="#">Главная</a></div>
+            <div class="header-menu-link-burger"><a href="#">Каталог</a></div>
+            <div class="header-menu-link-burger"><a href="#">Блог</a></div>
+            <div class="header-menu-link-burger"><a href="#">Решения</a></div>
+            <div class="header-menu-link-burger"><a href="#">Контакты</a></div>
+            <div class="header-tools-burger">
+              <img src="img/search.svg" alt="поиск" />
+              <img src="img/basket.svg" alt="корзина" />
+            </div>
+          </nav>
+        </div>
+      </header>
+
+      <main>
+        <section>
+          <div class="main-category">
+            <h2 class="main-category-catalog">Каталог</h2>
+            <div class="main-category-catalog-new-items">
+              <h2 class="main-category-catalog-new-items-title">
+                Лучшие новинки
+              </h2>
+              <div class="main-category-catalog-new-items-type">
+                <div class="main-category-catalog-new-items-type-link-active">
+                  <a href="#">Мебель</a>
+                </div>
+                <div class="main-category-catalog-new-items-type-link">
+                  <a href="#">Свет</a>
+                </div>
+                <div class="main-category-catalog-new-items-type-link">
+                  <a href="#">Декор</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="main-product-cards">
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/1.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Кресло</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-discount">
+                      4000 ₽
+                    </p>
+                    <p class="main-product-card-description-price-current">
+                      3500₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/2.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Кресло</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-discount">
+                      3400 ₽
+                    </p>
+                    <p class="main-product-card-description-price-current">
+                      3100₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/3.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">
+                    Ваза для цветов
+                  </p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-current">
+                      1100₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/4.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Стул</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-current">
+                      2300₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/5.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Лампа</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-current">
+                      4800₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/6.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">
+                    Ваза для цветов
+                  </p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-discount">
+                      2300 ₽
+                    </p>
+                    <p class="main-product-card-description-price-current">
+                      1900₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/7.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Серый стул</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-discount">
+                      4100 ₽
+                    </p>
+                    <p class="main-product-card-description-price-current">
+                      2500₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+
+            <div class="main-product-card">
+              <div class="main-product-card-img">
+                <img src="img/8.svg" alt="кресло" />
+              </div>
+              <div class="main-product-card-panel">
+                <img src="img/update.svg" alt="обновить" />
+                <img src="img/like.svg" alt="избранное" />
+                <img src="img/cart.svg" alt="корзина" />
+              </div>
+              <div class="main-product-card-info">
+                <div class="main-product-card-description">
+                  <p class="main-product-card-description-name">Черный стул</p>
+                  <div class="main-product-card-description-price">
+                    <p class="main-product-card-description-price-current">
+                      3300₽
+                    </p>
+                  </div>
+                </div>
+                <div class="main-product_card-description-rating">
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                  <img src="img/star.svg" alt="звезда" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer>
+        <div class="footer-logo">
+          <img src="img/logo.svg" alt="логотип" />
+        </div>
+        <div class="footer-description">
+          <h1 class="footer-title">Подпишитесь на новости</h1>
+          <p class="footer-text">
+            Оставьте свой emeil и вы будите получать актуальную информацию о
+            наших акциях и новинках
+          </p>
+        </div>
+        <div class="footer-form">
+          <form action="#">
+            <input
+              class="footer-form-email"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Введите email"
+              required
+            />
+            <input
+              class="footer-form-button"
+              type="submit"
+              value="Подписаться"
+            />
+          </form>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
